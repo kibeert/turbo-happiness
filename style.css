@@ -32,21 +32,22 @@ body{
            border-radius: 10px;
        }
        #square1{
-           background-color: #e78b8b;
+           background-color: aliceblue;
        }
        #square2{
-           background-color: #924b4b;
+           background-color: aliceblue;
        }
        #square3{
-           background-color: #052b38;
+           background-color: aliceblue;
        }
        #square4{
-           background-color: #26a9d4;
+           background-color: aliceblue
+    ;
        }
        #rectangle{
            width: 400px;
            height: 815px;
-           background-color: #f3687d;
+           background-color:#fadcdc;
            border-radius: 10px;
        }
        .footer{
@@ -62,3 +63,7 @@ body{
        .enlarge:hover{
         transform: scale(1.2);
        }
+
+.square1 img{
+    width: 300px;
+}
