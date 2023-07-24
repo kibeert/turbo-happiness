@@ -12,9 +12,9 @@ body{
     background-filter:blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    padding:20px;
+    padding:0px;
     overflow: initial;
-    width: 95vw;
+    width: 100vw;
     
 }
 .navbar h1{
@@ -50,6 +50,7 @@ body{
 .div1{
     position: relative;
     text-align: left;
+    width: 100vw;
 }
 .div1 h1{
     position: absolute;
@@ -72,10 +73,11 @@ body{
 }
 .left1{
     height:516px ;
-    width: 50%vh;
+    width: 50%;
 }
 .right1{
     height: 516px;
+    width: 50%;
 }
 .right1 img{
     height: 516px;
@@ -87,6 +89,9 @@ body{
     align-items: left;
     padding-right: 0%;
     margin-left: 0%;
+}
+.div2{
+    width: 100vw;
 }
 .div2 h2{
     color: #000;
@@ -105,9 +110,13 @@ body{
 }
 .div3{
     display: flex;
+    
 }
 .div4{
     display: flex;
+}
+.div4 img{
+    width: 50vw;
 }
 .footer{
     display: flex;
@@ -140,7 +149,3 @@ body{
     overflow: clip;
 }
 
-.right2 iframe{
-    display: flex;
-    padding-right: 0%;
-}
