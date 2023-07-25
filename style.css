@@ -110,7 +110,7 @@ body{
 }
 .div3{
     display: flex;
-    
+    justify-content: left;
 }
 .div4{
     display: flex;
